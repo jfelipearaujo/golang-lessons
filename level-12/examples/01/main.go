@@ -13,5 +13,7 @@ func PrintAge() {
 	fmt.Println("I am 29 years old")
 }
 
-// Suba para o github.com
-// Acesse godoc.org/{url-do-repositório}/{nome-do-pacote}
+// Esta função não será exportada pois esta com a primeira letra maiúscula
+func printNothing() {
+	fmt.Println("")
+}

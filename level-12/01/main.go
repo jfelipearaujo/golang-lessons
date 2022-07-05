@@ -1,14 +1,11 @@
-// Este é um pacote de exemplo
-package jose
+package main
 
-import "fmt"
+import (
+	"fmt"
 
-// Esta função exibe o nome do usuário
-func PrintName() {
-	fmt.Println("My name is Jose")
-}
+	"github.com/jfelipearaujo/golang-lessons/level-12/01/dog"
+)
 
-// Esta função exibe a idade do usuário
-func PrintAge() {
-	fmt.Println("I am 29 years old")
+func main() {
+	fmt.Println("Dogs age is:", dog.Age(5))
 }
