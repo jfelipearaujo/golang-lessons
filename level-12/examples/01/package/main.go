@@ -14,4 +14,4 @@ func PrintAge() {
 }
 
 // Suba para o github.com
-// Acesse godoc.org/{url-do-repo}
+// Acesse godoc.org/{url-do-repositório}/{nome-do-pacote}
